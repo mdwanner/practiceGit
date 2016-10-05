@@ -1,0 +1,38 @@
+POKEMON
+Orange & Blue Version
+
+*GAME WORLD GENERATES ON PROGRAM START (fixed size square matrix)
+*IF IMPLEMENTED, PROMPT PLAYER TO LOAD PREVIOUS FILE IF AVAILABLE (see 7)
+*OTHERWISE, BEGIN GAME FRESH START
+
+1) Start game, create character, choose starter
+2) <Battle> function available (only functions outside of town coordinates)
+3) <Explore> option
+	> Encounter trainers
+	> Encounter wild Pokemon
+		> Battle
+		> Catch
+		> Collect XP
+	> Reach the Pokemon League (only appears when 8 badges acquired)
+	> Find items
+	> Find town
+		> Buy items
+		> Pokecenter
+			> Heal
+			> Access PC, store Pokemon
+		> Battle gym
+			> Once 8 badges are collected, Elite Four can be encountered thru <Explore>
+4) <Pokedex>
+5) <View Bag>
+6) <Pokemon> View current Pokemon team (max 6)
+7) <Save>? If time to implement it
+	> Records all game data in *.txt
+	> When program boots up first time, ask if *.txt boot file is available to resume progress
+
+
+
+GAME OPTION SCREEN:
+
+<1:Pokedex>	<4:Explore>	<6:Save>  <--- If time allows
+<2:Pokemon>	<5:Battle>	<7:Quit>  <--- Warn players about unsaved data and confirm decision
+<3:Bag>
